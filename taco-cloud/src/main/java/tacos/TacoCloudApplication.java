@@ -14,10 +14,4 @@ public class TacoCloudApplication {
 
 }
 
-@Controller
-class HomeController {
-	@GetMapping("/")
-	String home(){
-		return "index";
-	}
-}
+
