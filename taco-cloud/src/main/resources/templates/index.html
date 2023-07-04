@@ -1,22 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http:/ /www.w3.org/1999/xhtml"
-      xmlns:th="http:/ /www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Taco Cloud</title>
+    <link rel="stylesheet" th:href="@{/styles.css}" />
 </head>
 
 <body>
 <h1>Welcome to Taco Cloud</h1>
-<img th:src="@{https://t3.ftcdn.net/jpg/02/59/76/90/360_F_259769013_LF1z6BRvhxL5ZadRdEcZxtoy6q9Lx3m8.jpg}"/>
-<style>
-    body{
-        color: aliceblue;
-        background-color: cadetblue;
-    }
-    img {
-        border-radius: 10px;
-        box-shadow: 2px 3px 10px black;
-    }
-</style>
+<img th:src="@{/images/240_F_259769013_LF1z6BRvhxL5ZadRdEcZxtoy6q9Lx3m8.jpg}"/>
+
 </body>
 </html>
